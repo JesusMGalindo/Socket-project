@@ -2,7 +2,7 @@
 
 ## Instructions
 
-* User will have two terminals with the directories of the server and client files pulled up. The user will type "make" to create objects and executable files for the client side to create an executable shortcut to run the code. "./client". The server is an executable provided by instructor and can be called the same way as client. The client must enter an IP and port number "./client <ipaddr> <port>". the server must enter a port number "./server <portNumber>". To get rid of all objects and executables for the client type "make clean" in the terminal in the directory of the file desired. 
+* User will have two terminals with the directories of the server and client files pulled up. The user will type "make" to create objects and executable files for the client side to create an executable shortcut to run the code. "./client". The server is an executable provided and can be called the same way as client though the user may have to use chmod to get the executable to work due to permissions. The client must enter an IP and port number "./client <ipaddr> <port>". the server must enter a port number "./server <portNumber>". To get rid of all objects and executables for the client type "make clean" in the terminal in the directory of the file desired. 
 
 ##  Description of the programs
 
@@ -117,4 +117,3 @@ Received ack of: 58
 Received ack of: 60
 Received ack of: 62
 Finished
-
